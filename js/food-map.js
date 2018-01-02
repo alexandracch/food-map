@@ -23,6 +23,7 @@ $(document).ready(function(){
             $fastFood.addClass('block');
           } else if (optionSelect === 'italian'){
             $fastFood.addClass('block');
+          }
         });
       
       });
