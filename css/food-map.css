@@ -72,7 +72,11 @@ button {
     background-color: rgb(255, 2, 2);
     color: white;
 }
+/* img */
 
+img .plate:active {
+border: 1px solid yellow;
+}
 /* Clases display */
 
 .block {
