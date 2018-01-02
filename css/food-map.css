@@ -1,0 +1,84 @@
+* {
+    font-family: 'Spinnaker', sans-serif;
+}
+
+.container-flex-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.logo-yummy {
+    margin-top: 5vh;
+    width: 15vh;
+    height: 10vh;
+}
+
+button:hover {
+    color: white;
+}
+hr {
+    font-size: 10px;
+}
+
+.container {
+    background-image: url('../assets/img/madera.jpg');
+    height: auto; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover; 
+}
+
+.container-2 {
+    background-image: url('../assets/img/madera.jpg');
+    height: auto; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover; 
+}
+
+iframe {
+    border-radius: 6px;
+    margin-top: 3vh;
+}
+
+select option {
+    word-wrap: break-word;
+}
+
+select.form-control {
+    width: 10vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 9px;
+    border: 2px solid #cf1f00;
+}
+
+.plate {
+    border-radius: 10px;
+    width: 100%;
+    height: 25vh;
+}
+
+.restaurant {
+    color:rgb(255, 2, 2);
+    background-color: rgb(255, 255, 255);
+    padding: 0.5vh;
+}
+
+button {
+    background-color: rgb(255, 2, 2);
+    color: white;
+}
+
+/* Clases display */
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}

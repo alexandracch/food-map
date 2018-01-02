@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://use.fontawesome.com/398f85d77e.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Spinnaker" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/food-map.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="register">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 container-flex-column">
+                    <div class="text-center fixed">
+                        <img class="logo-yummy" src="assets/img/yummy-rojo.JPG" alt="logo-yummy">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 container-flex-column container">
+                    <div class="container-flex-row text-center ">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                            width="280vh" height="180vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <h3>Comida cerca de ti</h3>
+                        <div class="form-group">
+                            <select class="form-control" id="select">
+                                <option value="principal">Selecciona tu comida de hoy :)</option>
+                                <option value="peruvian">Peruana</option>
+                                <option value="mexican">Mexicana</option>
+                                <option value="fastfod">Rápida</option>
+                                <option value="italian">Italiana</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Comida peruana -->
+    <section id="op-peruvian-food" class="none">
+        <div class="container-fluid">
+            <div class="row">
+                <div>
+                    <div class="col-xs-12 col-sm-12 container-flex-column container-2">
+                        <div class="food">
+                            <a href="#ventana1" data-toggle="modal">
+                                <img class="plate" src="assets/img/lomito.jpg" alt="comida peruana">
+                                <div class="restaurant">
+                                    <h4>El Grifo</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana2" data-toggle="modal">
+                                <img class="plate" src="assets/img/causa.jpg" alt="comida peruana">
+                                <div class="restaurant">
+                                    <h4>Entre Causas</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana4" data-toggle="modal">
+                                <img class="plate" src="assets/img/ceviche.jpg" alt="comida peruana">
+                                <div class="restaurant">
+                                    <h4>Mi Barrunto</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana3" data-toggle="modal">
+                                <img class="plate" src="assets/img/pollo.jpg" alt="comida peruana">
+                                <div class="restaurant">
+                                    <h4>El Corralito</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana5" data-toggle="modal">
+                                <img class="plate" src="assets/img/arroz-con-pollojpg.jpg" alt="comida peruana">
+                                <div class="restaurant">
+                                    <h4>Costanera 700</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Comida mexicana -->
+    <section id="op-mexican-food" class="none">
+        <div class="container-fluid">
+            <div class="row">
+                <div>
+                    <div class="col-xs-12 col-sm-12 container-flex-column container-2">
+                        <div class="food">
+                            <a href="#ventana6" data-toggle="modal">
+                                <img class="plate" src="assets/img/mexicana-1.jpg" alt="comida mexicana">
+                                <div class="restaurant">
+                                    <h4>El Grifo</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana7" data-toggle="modal">
+                                <img class="plate" src="assets/img/mexicana-2.jpg" alt="comida mexicana"
+                                <div class="restaurant">
+                                    <h4>Entre Causas</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana8" data-toggle="modal">
+                                <img class="plate" src="assets/img/mexicana-3.jpg" alt="comida mexicana">
+                                <div class="restaurant">
+                                    <h4>Mi Barrunto</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana9" data-toggle="modal">
+                                <img class="plate" src="assets/img/mexicana-4.jpg" alt="comida mexicana">
+                                <div class="restaurant">
+                                    <h4>El Corralito</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana10" data-toggle="modal">
+                                <img class="plate" src="assets/img/mexicana-5.jpg" alt="comida mexicana">
+                                <div class="restaurant">
+                                    <h4>Costanera 700</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Comida rapida -->
+    <section id="op-fast-food" class="none">
+        <div class="container-fluid">
+            <div class="row">
+                <div>
+                    <div class="col-xs-12 col-sm-12 container-flex-column container-2">
+                        <div class="food">
+                            <a href="#ventana11" data-toggle="modal">
+                                <img class="plate" src="assets/img/hamburguer.jpg" alt="comida rápida">
+                                <div class="restaurant">
+                                    <h4>El Grifo</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana12" data-toggle="modal">
+                                <img class="plate" src="assets/img/hamburguer.jpg" alt="comida rápida"
+                                <div class="restaurant">
+                                    <h4>Entre Causas</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana13" data-toggle="modal">
+                                <img class="plate" src="assets/img/hamburguer.jpg" alt="comida rápida">
+                                <div class="restaurant">
+                                    <h4>Mi Barrunto</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana14" data-toggle="modal">
+                                <img class="plate" src="assets/img/hamburguer.jpg" alt="comida rápida">
+                                <div class="restaurant">
+                                    <h4>El Corralito</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana15" data-toggle="modal">
+                                <img class="plate" src="assets/img/hamburguer.jpg" alt="comida rápida">
+                                <div class="restaurant">
+                                    <h4>Costanera 700</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pastas -->
+    <section id="op-italian-food">
+        <div class="container-fluid">
+            <div class="row">
+                    <div class="col-xs-12 col-sm-12 container-flex-column container-2">
+                        <div class="food">
+                            <a href="#ventana16" data-toggle="modal">
+                                <img class="plate" src="assets/img/pastas-1.jpg" alt="pastas">
+                                <div class="restaurant">
+                                    <h4>El Grifo</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana17" data-toggle="modal">
+                                <img class="plate" src="assets/img/pastas-2.jpg" alt="pastas"
+                                <div class="restaurant">
+                                    <h4>Entre Causas</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana18" data-toggle="modal">
+                                <img class="plate" src="assets/img/pastas-3.jpg" alt="pastas">
+                                <div class="restaurant">
+                                    <h4>Mi Barrunto</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana19" data-toggle="modal">
+                                <img class="plate" src="assets/img/pastas-4.jpg" alt="pastas">
+                                <div class="restaurant">
+                                    <h4>El Corralito</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                            <a href="#ventana20" data-toggle="modal">
+                                <img class="plate" src="assets/img/pastas-5.jpg" alt="pastas">
+                                <div class="restaurant">
+                                    <h4>Costanera 700</h4>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Comida Peruana -->
+    <div class="modal fade" id="ventana1">
+        <div class="modal-dialog">
+            <div class="modal-content modal-styles-2">
+                <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="modal-body text-center">
+                    <div>
+                        <h2>El Grifo</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                            width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        <h4>Av. Oscar R. Benavides 2703 </h4>
+                        <br>
+                        <h4>Rango de precios: s/.-s/.</h4>
+                        <br>
+                        <h4>Servicio a domicilio: Sí</h4>
+                        <br>
+                        <h4>Número de teléfono: </h4>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" id="ventana2">
+        <div class="modal-dialog">
+            <div class="modal-content modal-styles-2">
+                <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="modal-body text-center">
+                    <div>
+                        <h2>Entre Causas</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                            width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        <h4>Plaza Padre Bollar 203 B, San Isidro</h4>
+                        <br>
+                        <h4>Rango de precios: s/.-s/.</h4>
+                        <br>
+                        <h4>Servicio a domicilio: Sí</h4>
+                        <br>
+                        <h4>Número de teléfono: </h4>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ventana3">
+            <div class="modal-dialog">
+                <div class="modal-content modal-styles-2">
+                    <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class="modal-body text-center">
+                        <div>
+                            <h2>El Corralito</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+                            <h4>Av. Universitaria 640 (Urb. Pando 4TA. Etapa</h4>
+                            <br>
+                            <h4>Rango de precios: s/.-s/.</h4>
+                            <br>
+                            <h4>Servicio a domicilio: Sí</h4>
+                            <br>
+                            <h4>Número de teléfono: </h4>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="ventana4">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-styles-2">
+                        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <div class="modal-body text-center">
+                            <div>
+                                <h2>Mi Barrunto</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                    width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+                                <h4>Jr. Sebastián Barranca 935, La Victoria. </h4>
+                                <br>
+                                <h4>Rango de precios: s/.-s/.</h4>
+                                <br>
+                                <h4>Servicio a domicilio: Sí</h4>
+                                <br>
+                                <h4>Número de teléfono: </h4>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="ventana5">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-styles-2">
+                        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <div class="modal-body text-center">
+                            <div>
+                                <h2>Costanera 700</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                    width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+                                <h4>Jr. Sebastián Barranca 935, La Victoria. </h4>
+                                <br>
+                                <h4>Rango de precios: s/.-s/.</h4>
+                                <br>
+                                <h4>Servicio a domicilio: Sí</h4>
+                                <br>
+                                <h4>Número de teléfono: </h4>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Comida Mexicana -->
+    <div class="modal fade" id="ventana6">
+        <div class="modal-dialog">
+            <div class="modal-content modal-styles-2">
+                <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="modal-body text-center">
+                    <div>
+                        <h2>El Grifo</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                            width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        <h4>Av. Oscar R. Benavides 2703 </h4>
+                        <br>
+                        <h4>Rango de precios: s/.-s/.</h4>
+                        <br>
+                        <h4>Servicio a domicilio: Sí</h4>
+                        <br>
+                        <h4>Número de teléfono: </h4>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" id="ventana7">
+        <div class="modal-dialog">
+            <div class="modal-content modal-styles-2">
+                <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="modal-body text-center">
+                    <div>
+                        <h2>Entre Causas</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                            width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        <h4>Plaza Padre Bollar 203 B, San Isidro</h4>
+                        <br>
+                        <h4>Rango de precios: s/.-s/.</h4>
+                        <br>
+                        <h4>Servicio a domicilio: Sí</h4>
+                        <br>
+                        <h4>Número de teléfono: </h4>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ventana8">
+            <div class="modal-dialog">
+                <div class="modal-content modal-styles-2">
+                    <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class="modal-body text-center">
+                        <div>
+                            <h2>El Corralito</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+                            <h4>Av. Universitaria 640 (Urb. Pando 4TA. Etapa</h4>
+                            <br>
+                            <h4>Rango de precios: s/.-s/.</h4>
+                            <br>
+                            <h4>Servicio a domicilio: Sí</h4>
+                            <br>
+                            <h4>Número de teléfono: </h4>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="ventana9">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-styles-2">
+                        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <div class="modal-body text-center">
+                            <div>
+                                <h2>Mi Barrunto</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                    width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+                                <h4>Jr. Sebastián Barranca 935, La Victoria. </h4>
+                                <br>
+                                <h4>Rango de precios: s/.-s/.</h4>
+                                <br>
+                                <h4>Servicio a domicilio: Sí</h4>
+                                <br>
+                                <h4>Número de teléfono: </h4>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="ventana10">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-styles-2">
+                        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <div class="modal-body text-center">
+                            <div>
+                                <h2>Costanera 700</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                    width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+                                <h4>Jr. Sebastián Barranca 935, La Victoria. </h4>
+                                <br>
+                                <h4>Rango de precios: s/.-s/.</h4>
+                                <br>
+                                <h4>Servicio a domicilio: Sí</h4>
+                                <br>
+                                <h4>Número de teléfono: </h4>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Modal Comida Rápida -->
+    <div class="modal fade" id="ventana11">
+        <div class="modal-dialog">
+            <div class="modal-content modal-styles-2">
+                <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="modal-body text-center">
+                    <div>
+                        <h2>El Grifo</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                            width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        <h4>Av. Oscar R. Benavides 2703 </h4>
+                        <br>
+                        <h4>Rango de precios: s/.-s/.</h4>
+                        <br>
+                        <h4>Servicio a domicilio: Sí</h4>
+                        <br>
+                        <h4>Número de teléfono: </h4>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" id="ventana12">
+        <div class="modal-dialog">
+            <div class="modal-content modal-styles-2">
+                <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div class="modal-body text-center">
+                    <div>
+                        <h2>Entre Causas</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                            width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                        <h4>Plaza Padre Bollar 203 B, San Isidro</h4>
+                        <br>
+                        <h4>Rango de precios: s/.-s/.</h4>
+                        <br>
+                        <h4>Servicio a domicilio: Sí</h4>
+                        <br>
+                        <h4>Número de teléfono: </h4>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ventana13">
+            <div class="modal-dialog">
+                <div class="modal-content modal-styles-2">
+                    <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class="modal-body text-center">
+                        <div>
+                            <h2>El Corralito</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+                            <h4>Av. Universitaria 640 (Urb. Pando 4TA. Etapa</h4>
+                            <br>
+                            <h4>Rango de precios: s/.-s/.</h4>
+                            <br>
+                            <h4>Servicio a domicilio: Sí</h4>
+                            <br>
+                            <h4>Número de teléfono: </h4>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="ventana14">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-styles-2">
+                        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <div class="modal-body text-center">
+                            <div>
+                                <h2>Mi Barrunto</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                    width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+                                <h4>Jr. Sebastián Barranca 935, La Victoria. </h4>
+                                <br>
+                                <h4>Rango de precios: s/.-s/.</h4>
+                                <br>
+                                <h4>Servicio a domicilio: Sí</h4>
+                                <br>
+                                <h4>Número de teléfono: </h4>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="ventana15">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-styles-2">
+                        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <div class="modal-body text-center">
+                            <div>
+                                <h2>Costanera 700</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                    width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+                                <h4>Jr. Sebastián Barranca 935, La Victoria. </h4>
+                                <br>
+                                <h4>Rango de precios: s/.-s/.</h4>
+                                <br>
+                                <h4>Servicio a domicilio: Sí</h4>
+                                <br>
+                                <h4>Número de teléfono: </h4>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- Modal pastas -->
+    <section>
+        <div class="modal fade" id="ventana16" >
+            <div class="modal-dialog">
+                <div class="modal-content modal-styles-2">
+                    <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class="modal-body text-center">
+                        <div>
+                            <h2>El Grifo</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+                            <h4>Av. Oscar R. Benavides 2703 </h4>
+                            <br>
+                            <h4>Rango de precios: s/.-s/.</h4>
+                            <br>
+                            <h4>Servicio a domicilio: Sí</h4>
+                            <br>
+                            <h4>Número de teléfono: </h4>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="modal fade" id="ventana17">
+            <div class="modal-dialog">
+                <div class="modal-content modal-styles-2">
+                    <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <div class="modal-body text-center">
+                        <div>
+                            <h2>Entre Causas</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+                            <h4>Plaza Padre Bollar 203 B, San Isidro</h4>
+                            <br>
+                            <h4>Rango de precios: s/.-s/.</h4>
+                            <br>
+                            <h4>Servicio a domicilio: Sí</h4>
+                            <br>
+                            <h4>Número de teléfono: </h4>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="ventana18">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-styles-2">
+                        <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <div class="modal-body text-center">
+                            <div>
+                                <h2>El Corralito</h2>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                    width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+                                <h4>Av. Universitaria 640 (Urb. Pando 4TA. Etapa</h4>
+                                <br>
+                                <h4>Rango de precios: s/.-s/.</h4>
+                                <br>
+                                <h4>Servicio a domicilio: Sí</h4>
+                                <br>
+                                <h4>Número de teléfono: </h4>
+                                <br>
+                                <br>
+                                <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="ventana19">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal-styles-2">
+                            <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <div class="modal-body text-center">
+                                <div>
+                                    <h2>Mi Barrunto</h2>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                        width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+            
+                                    <h4>Jr. Sebastián Barranca 935, La Victoria. </h4>
+                                    <br>
+                                    <h4>Rango de precios: s/.-s/.</h4>
+                                    <br>
+                                    <h4>Servicio a domicilio: Sí</h4>
+                                    <br>
+                                    <h4>Número de teléfono: </h4>
+                                    <br>
+                                    <br>
+                                    <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="ventana20">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal-styles-2">
+                            <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <div class="modal-body text-center">
+                                <div>
+                                    <h2>Costanera 700</h2>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.7963264196605!2d-77.0228706856348!3d-12.126083691414518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8033c4f960d%3A0xb1090a5c19afced4!2sLaboratoria!5e0!3m2!1ses-419!2spe!4v1514523512595"
+                                        width="180vh" height="220vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+            
+                                    <h4>Jr. Sebastián Barranca 935, La Victoria. </h4>
+                                    <br>
+                                    <h4>Rango de precios: s/.-s/.</h4>
+                                    <br>
+                                    <h4>Servicio a domicilio: Sí</h4>
+                                    <br>
+                                    <h4>Número de teléfono: </h4>
+                                    <br>
+                                    <br>
+                                    <button type="button" class="btn btn-lg btn-block">Pedir Ahora</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/food-map.js"></script>
+</body>
+
+</html>

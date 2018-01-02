@@ -1,0 +1,26 @@
+* {
+    background-color: rgb(224, 0, 0);
+}
+
+#loading-pizza {
+    width: 20vh;
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
+
+.container-flex-columns {
+    margin-left: 12vh;
+    margin-top: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    }
